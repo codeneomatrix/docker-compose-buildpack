@@ -8,5 +8,5 @@ build_dir=$1
 cat << EOF
 addons: []
 default_process_types:
-  web: "$1/docker" build .
+  web: "sudo $1/docker" build .
 EOF
