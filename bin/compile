@@ -28,4 +28,4 @@ function install_docker_compose {
 }
 
 install_docker
-install_docker_compose
+#install_docker_compose
