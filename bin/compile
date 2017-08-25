@@ -23,7 +23,7 @@ function install_docker_compose {
   echo "Installing Docker Compose ${docker_compose_version}"
 
   cd "${build_dir}"
-
+  echo "https://github.com/docker/compose/releases/download/${docker_compose_version}/docker-compose-$(uname -s)-$(uname -m)"
   curl -L "https://github.com/docker/compose/releases/download/${docker_compose_version}/docker-compose-$(uname -s)-$(uname -m)"
 }
 
